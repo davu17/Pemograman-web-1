@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: lightgrey;
+}
+
+h1.ex1 {
+  background-color: black;
+  color: white;
+}
+
+div {
+  background-color: blue;
+  color: white;
+}
+
+h1.ex2 {
+  text-align: center;
+}
+
+h2 {
+  text-align: left;
+}
+
+h3 {
+  text-align: right;
+}
+p.ex3{
+    border: 1px solid black;
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+  text-align: justify;
+}
+p.a {
+  text-align-last: right;
+}
+p.b {
+  text-align-last: center;
+}
+p.c {
+  text-align-last: justify;
+}
+
+p.ex4 {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+h1.ex5 {
+  text-decoration: overline;
+  text-decoration-color: red;
+  text-decoration-style: dotted;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+h2.ex5 {
+  text-decoration: line-through;
+  text-decoration-color: blue;
+  text-transform: lowercase;
+  line-height: 1.8;
+  text-shadow: 2px 2px 5px red;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h3.ex5 {
+  text-decoration: underline;
+  text-decoration-color: green;
+  text-decoration-thickness: 5px;
+  text-transform: capitalize;
+  line-height: 0.7;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-style: italic;
+}
+
+p.ex5 {
+  text-decoration: overline underline;
+  text-decoration-color: purple;
+  text-indent: 50px;
+  font-size: 40px;
+}
+</style>
+</head>
+<body>
+
+<h1 class="ex1">This is a Heading</h1>
+<p>This page has a grey background color and a blue text.</p>
+<div>This is a div.</div>
+
+<h1 class="ex2">Heading 1 (center)</h1>
+<h2>Heading 2 (left)</h2>
+<h3>Heading 3 (right)</h3>
+
+<h1>Example text-align: justify</h1>
+<p class="ex3">The text-align: justify; value stretches the lines so that each line has equal width (like in newspapers and magazines).</p>
+
+<h1>The text-align-last Property</h1>
+<h2>text-align-last: right:</h2>
+<p class="a">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.</p>
+<h2>text-align-last: center:</h2>
+<p class="b">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.</p>
+<h2>text-align-last: justify:</h2>
+<p class="c">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.</p>
+
+<p>This is the default text direction.</p>
+<p class="ex4">This is right-to-left text direction.</p>
+
+<h1 class="ex5">Overline text decoration</h1>
+<h2 class="ex5">Line-through text decoration</h2>
+<h3 class="ex5">Underline text decoration</h3>
+<p class="ex5">Overline and underline text decoration.</p>
+</body>
+</html>
