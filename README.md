@@ -3,7 +3,7 @@
 Hypertext Markup Language atau biasa disebut HTML merupakan bahasa markup yang digunakan untuk membuat dan menyusun struktur halaman dari sebuah web. HTML memungkinkan penulis untuk membuat dan menyusun bagian paragraf, heading, link, dan blok konten lainnya dengan menggunakan tag. Perlu diketahui bahwa HTML bukan lah sebuah bahasa pemograman, melainkan sebuah bahasa yang menentukan struktur konten pada sebuah website.
 Berikut ini adalah beberapa tag yang ada pada HTML:
 ### 1.Heading
-Heading pada html adalah judul atau subjudul yang ingin Anda tampilkan di halaman web. Heading pada HTML didefinisikan dengan menggunakan elemen <h> .Tag heading terbagi menjadi 6, dimulai dari <h6> untuk heading terkecil sampai <h1> untuk heading terbesarnya. 
+Heading pada html adalah judul atau subjudul yang ingin Anda tampilkan di halaman web. Heading pada HTML didefinisikan dengan menggunakan elemen < h> .Tag heading terbagi menjadi 6, dimulai dari < h6> untuk heading terkecil sampai <h1> untuk heading terbesarnya. 
 ### 2.Paragraf
 Sebuah paragraf selalu dimulai pada baris baru dan browser secara otomatis akan menambahkan sedikit jarak pada sebelum dan sesudah paragraf. Paragraf pada HTML didefinisikan menggunakan elemen <p>.
 ### 3. Hyperlink
