@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border-Davu</title>
+    <style>
+    p.dotted {border-style: dotted;}
+    p.dashed {border-style: dashed;}
+    p.solid {border-style: solid;}
+    p.double {border-style: double;}
+    p.groove {border-style: groove;}
+    p.ridge {border-style: ridge;}
+    p.inset {border-style: inset;}
+    p.outset {border-style: outset;}
+    p.none {border-style: none;}
+    p.hidden {border-style: hidden;}
+    p.mix {border-style: dotted dashed solid double;}
+
+    /* style untuk border Width */
+    p.one {
+  border-style: solid;
+  border-width: 5px 20px; /* 5px top and bottom, 20px on the sides */
+    }
+
+    p.two {
+    border-style: solid;
+    border-width: 20px 5px; /* 20px top and bottom, 5px on the sides */
+    }
+
+    p.three {
+    border-style: solid;
+    border-width: 25px 10px 4px 35px; /* 25px top, 10px right, 4px bottom and 35px left */
+    }
+</style>
+</head>
+<body>
+
+    <h2>Properti Border-Style</h2>
+    <p>Properti ini menentukan jenis batas yang akan ditampilkan:</p>
+
+    <p class="dotted">border dotted.</p>
+    <p class="dashed">border dashed.</p>
+    <p class="solid">border solid.</p>
+    <p class="double">border double .</p>
+    <p class="groove">border groove.</p>
+    <p class="ridge">border ridge .</p>
+    <p class="inset">border inset .</p>
+    <p class="outset">border outset .</p>
+    <p class="none">Tanpa border.</p>
+    <p class="hidden">Border tersembunyi.</p>
+    <p class="mix">gabungan border.</p><hr>
+
+    <!-- border width -->
+    <h2>Properti border-width</h2>
+    <p class="one">Ini adalah paragraf 1.</p>
+    <p class="two">Ini adalah paragraf 2.</p>
+    <p class="three">Ini adalah paragraf 3.</p>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Latihan membuat tabel</h1>
+    <table>
+        <tr>
+            <th>Materi</th>
+            <th>Sub Materi</th>
+            <th>Icon</th>
+        </tr>
+        <tr>
+            <td>Materi satu</td>
+            <td>HTML</td>
+            <td><img src="https://www.techfor.id/wp-content/uploads/2019/12/html.png" width="50px" height="auto" onclick="changeIcon(this)"></td>
+        </tr>
+        <tr>
+            <td>Materi Dua</td>
+            <td>CSS</td>
+            <td><img src="https://www.techfor.id/wp-content/uploads/2019/12/html.png" width="50px" height="auto" onclick="changeIcon(this)"></td>
+        </tr>
+        <tr>
+            <td>Materi materi tiga</td>
+            <td>JavaScript</td>
+            <td><img src="https://www.techfor.id/wp-content/uploads/2019/12/html.png" width="50px" height="auto" onclick="changeIcon(this)"></td>
+        </tr>
+    </table>
+
+    <script>
+        function changeIcon(element){
+        if (element.src.includes("https://www.techfor.id/wp-content/uploads/2019/12/html.png")){
+            element.src = "https://bacsoftwareconsulting.com/blog/wp-content/uploads/2015/05/html-4.jpg"; 
+        } else if(element.src.includes("https://bacsoftwareconsulting.com/blog/wp-content/uploads/2015/05/html-4.jpg")){
+            element.src = "https://www.techfor.id/wp-content/uploads/2019/12/html.png";
+        } else if (element.src.includes("https://www.techfor.id/wp-content/uploads/2019/12/html.png")){
+            element.src =  "https://www.techfor.id/wp-content/uploads/2019/12/html.png";
+        }
+        }
+    </script>
+</body>
+</html>
